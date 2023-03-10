@@ -1,7 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.Data;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class BottleController : MonoBehaviour
 {
@@ -26,7 +26,7 @@ public class BottleController : MonoBehaviour
 
     public BottleController bottleControllerRef;
     public bool justThisBottle = false;
-    private int numberOfColorsToTransfer = 0;
+    public int numberOfColorsToTransfer = 0;
 
     public Transform leftRotationPoint,rightRotationPoint, chosenRotationPoint;
 
