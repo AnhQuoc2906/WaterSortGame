@@ -569,6 +569,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 958678553691652505, guid: b8f36071452197c43aa9ef3326ae9824, type: 3}
   m_PrefabInstance: {fileID: 968875556}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &356344886 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 958678553691652508, guid: b8f36071452197c43aa9ef3326ae9824, type: 3}
+  m_PrefabInstance: {fileID: 968875556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356344884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18f5792da788b3469cbe8ad74e7a105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &359322330
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,6 +988,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 958678553691652505, guid: b8f36071452197c43aa9ef3326ae9824, type: 3}
   m_PrefabInstance: {fileID: 958678554190479282}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &707281611 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 958678553691652508, guid: b8f36071452197c43aa9ef3326ae9824, type: 3}
+  m_PrefabInstance: {fileID: 958678554190479282}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707281609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18f5792da788b3469cbe8ad74e7a105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &790378603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1855,10 +1877,6 @@ MonoBehaviour:
   FirstBottle: {fileID: 0}
   SecondBottle: {fileID: 0}
   transferCanvas: {fileID: 24156910}
-  canvas1: {fileID: 923208632}
-  canvas2: {fileID: 2030003484}
-  canvas3: {fileID: 707281609}
-  canvas4: {fileID: 356344884}
 --- !u!4 &1395348563
 Transform:
   m_ObjectHideFlags: 0
@@ -1872,7 +1890,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1472310067
 GameObject:
@@ -2138,7 +2156,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1862947600
 GameObject:
@@ -2506,6 +2524,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Congratulation
       objectReference: {fileID: 0}
+    - target: {fileID: 5883446264609624940, guid: 046f83ccb2e7c7043afb7d08042c20c0, type: 3}
+      propertyPath: canvas1
+      value: 
+      objectReference: {fileID: 923208632}
+    - target: {fileID: 5883446264609624940, guid: 046f83ccb2e7c7043afb7d08042c20c0, type: 3}
+      propertyPath: canvas2
+      value: 
+      objectReference: {fileID: 2030003484}
+    - target: {fileID: 5883446264609624940, guid: 046f83ccb2e7c7043afb7d08042c20c0, type: 3}
+      propertyPath: canvas3
+      value: 
+      objectReference: {fileID: 707281609}
+    - target: {fileID: 5883446264609624940, guid: 046f83ccb2e7c7043afb7d08042c20c0, type: 3}
+      propertyPath: canvas4
+      value: 
+      objectReference: {fileID: 356344884}
+    - target: {fileID: 5883446264609624940, guid: 046f83ccb2e7c7043afb7d08042c20c0, type: 3}
+      propertyPath: FirstBottle
+      value: 
+      objectReference: {fileID: 707281611}
+    - target: {fileID: 5883446264609624940, guid: 046f83ccb2e7c7043afb7d08042c20c0, type: 3}
+      propertyPath: SecondBottle
+      value: 
+      objectReference: {fileID: 356344886}
+    - target: {fileID: 5883446264609624940, guid: 046f83ccb2e7c7043afb7d08042c20c0, type: 3}
+      propertyPath: bottlePrefab
+      value: 
+      objectReference: {fileID: 707281609}
+    - target: {fileID: 5883446264609624940, guid: 046f83ccb2e7c7043afb7d08042c20c0, type: 3}
+      propertyPath: bottlePrefab1
+      value: 
+      objectReference: {fileID: 356344884}
     - target: {fileID: 5883446264609624942, guid: 046f83ccb2e7c7043afb7d08042c20c0, type: 3}
       propertyPath: m_Camera
       value: 

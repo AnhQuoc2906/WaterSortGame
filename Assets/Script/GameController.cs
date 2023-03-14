@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     public BottleController SecondBottle;
     public TransferCanvas transferCanvas;
     private bool isFinished;
-    public GameObject canvas1,canvas2,canvas3,canvas4;
+ 
     // Start is called before the first frame update
     void Start()
     {
@@ -52,14 +52,19 @@ public class GameController : MonoBehaviour
                             if (SecondBottle.FillBottleCheck(FirstBottle.topColor) == true)
                             {
                                 FirstBottle.StartColorTransfer();
+                               
                                 FirstBottle = null;
                                 SecondBottle = null;
+
                             }
                             else
                             {
+                             
                                 FirstBottle = null;
                                 SecondBottle = null;
-                                Congratulation();
+                                 isFinished = true;
+
+
 
 
                             }
@@ -72,21 +77,27 @@ public class GameController : MonoBehaviour
                 }
 
             }
-          
-            
-        }
-     
-    }
-    public void Congratulation()
-    {
-       
-            canvas1.SetActive(false);
-            canvas2.SetActive(false);
-            canvas3.SetActive(false);
-            canvas4.SetActive(false);
 
-            transferCanvas.Setup();
+
+        }
         
+            if (isFinished)
+            {
+                Congratulation(isFinished);
+            }
+        
+
+    }
+    public void Congratulation(bool isFinished)
+    {
+        if (isFinished)
+        {
+
+                transferCanvas.Setup();
+            
+            
+
+        }
     }
 }
 
