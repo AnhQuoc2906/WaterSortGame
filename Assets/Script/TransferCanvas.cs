@@ -3,9 +3,7 @@ using UnityEngine.UI;
 
 public class TransferCanvas : MonoBehaviour
 {
-    public BottleController bottleController1;
-    public BottleController bottleController2;
-
+    public BottleController bottleController;
     public GameObject canvas;
 
     // Start is called before the first frame update
@@ -19,7 +17,7 @@ public class TransferCanvas : MonoBehaviour
     void Update()
     {
         // Check if numberOfColorsToTransfer is zero
-        if (bottleController1.numberOfColorsInBottle == 4 && bottleController2.numberOfColorsInBottle==2)
+        if (bottleController.numberOfColorsToTransfer == bottleController.numberOfColorsInBottle)
         {
             // Show the canvas if it is hidden
             if (!canvas.activeSelf)
