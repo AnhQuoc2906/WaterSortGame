@@ -1,20 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
     public BottleController FirstBottle;
     public BottleController SecondBottle;
+
+
+    public GameObject congratsUI;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //congratsUI = GameObject.Find("Congratulations");
+        congratsUI.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
         if(Input.GetMouseButtonDown(0))
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -59,5 +66,11 @@ public class GameController : MonoBehaviour
                 }
             }
         }
+    }
+
+
+    public void EndGame()
+    {
+        congratsUI.SetActive(true);
     }
 }

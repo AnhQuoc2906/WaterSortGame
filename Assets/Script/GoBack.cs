@@ -13,6 +13,8 @@ public class GoBack : MonoBehaviour
     }
     public void ShowPanel () 
     {
-        exitPanel.SetActive (true);
+        if(exitPanel.activeSelf) {
+            exitPanel.SetActive(false);
+        } else exitPanel.SetActive (true);
     }
 }

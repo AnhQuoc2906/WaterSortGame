@@ -8,6 +8,7 @@ using System;
 public class Timer : MonoBehaviour
 {
     [SerializeField] GameObject exitPanel;
+    [SerializeField] GameObject congratulationPanel;
     float currentTime;
     public TextMeshProUGUI currentTimeText;
     // Start is called before the first frame update
@@ -19,11 +20,10 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!exitPanel.activeSelf) 
+        if (!exitPanel.activeSelf && !congratulationPanel.activeSelf) 
         {
             currentTime += Time.deltaTime;
-
-        }
+        } 
         TimeSpan time = TimeSpan.FromSeconds(currentTime);
         currentTimeText.text = time.ToString(@"mm\:ss");
     }

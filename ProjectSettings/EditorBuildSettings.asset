@@ -25,26 +25,26 @@ EditorBuildSettings:
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Easy2.unity
-    guid: 2e00376e764fb71489880265ac03e786
+    guid: 60258d2186160304e9ef439ea007bcdf
   - enabled: 1
     path: Assets/Scenes/Easy3.unity
-    guid: d31116e0ab847fa42977b768651e8a36
+    guid: e138b6523854aa44eb82355366c9b6f9
   - enabled: 1
-    path: Assets/Scenes/Normal1.unity
-    guid: 3c83b0f8fe17bca4484ce00ef3035324
+    path: Assets/Scenes/Medium1.unity
+    guid: ba6bc35eb9953b44bbb8341acd6e9781
   - enabled: 1
-    path: Assets/Scenes/Normal2.unity
-    guid: bf3fca0252d90334c86594005ef90bd1
+    path: Assets/Scenes/Medium2.unity
+    guid: cbc418e81412a7f44a5a67c015ed964c
   - enabled: 1
-    path: Assets/Scenes/Normal3.unity
-    guid: f85d921c457d772498efba092bb1a186
+    path: Assets/Scenes/Medium3.unity
+    guid: 30aff7430c674ad49b874b34d2127a87
   - enabled: 1
     path: Assets/Scenes/Hard1.unity
-    guid: 306da4117226b6945b4fa66eba4120f2
+    guid: 157461d93282b2745ac7a30b4b9b0433
   - enabled: 1
     path: Assets/Scenes/Hard2.unity
-    guid: e01dbf6188cbf744d8438146ceb59152
+    guid: 2f4403fce4d922f4a9d7c574af1948e3
   - enabled: 1
     path: Assets/Scenes/Hard3.unity
-    guid: 91d1d681e7b469d44aa7904270ef5a8c
+    guid: 3c49a769e97dda94e996b3785ee85710
   m_configObjects: {}

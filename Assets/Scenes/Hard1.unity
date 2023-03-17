@@ -1221,6 +1221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   exitPanel: {fileID: 2030003484}
+  congratulationPanel: {fileID: 0}
   currentTimeText: {fileID: 472840675}
 --- !u!1001 &968875556
 PrefabInstance:
@@ -1829,6 +1830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FirstBottle: {fileID: 0}
   SecondBottle: {fileID: 0}
+  congratsUI: {fileID: 0}
 --- !u!4 &1395348563
 Transform:
   m_ObjectHideFlags: 0
