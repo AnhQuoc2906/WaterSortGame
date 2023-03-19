@@ -53,18 +53,21 @@
     <UnityVersion>2021.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\WinScene.cs" />
     <Compile Include="Assets\Script\GoBack.cs" />
     <Compile Include="Assets\Script\BottleController.cs" />
     <Compile Include="Assets\Script\BackToDifficulty.cs" />
+    <Compile Include="Assets\Script\BottleSelect.cs" />
     <Compile Include="Assets\Script\ExitPopup.cs" />
     <Compile Include="Assets\Script\Quit.cs" />
     <Compile Include="Assets\Script\GameController.cs" />
     <Compile Include="Assets\Script\ChangeScene.cs" />
     <Compile Include="Assets\Script\Timer.cs" />
+    <Compile Include="Assets\Script\AudioSlider.cs" />
+    <Compile Include="Assets\Script\Mute.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
