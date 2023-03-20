@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] GameObject exitPanel;
     [SerializeField] GameObject congratulationPanel;
+    [SerializeField] GameObject restartPanel;
     float currentTime;
     public TextMeshProUGUI currentTimeText;
     // Start is called before the first frame update
@@ -20,7 +21,7 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!exitPanel.activeSelf && !congratulationPanel.activeSelf) 
+        if (!exitPanel.activeSelf && !congratulationPanel.activeSelf && !restartPanel.activeSelf) 
         {
             currentTime += Time.deltaTime;
         } 

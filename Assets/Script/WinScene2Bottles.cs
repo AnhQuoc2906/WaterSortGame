@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class WinScene : MonoBehaviour
+public class WinScene2Bottles : MonoBehaviour
 {
     public BottleController Bottle1;
     public BottleController Bottle2;
-    [SerializeField]
     public GameObject winScene;
+    public GameObject backButton;
     BottleController[] bottles = new BottleController[2];
     float currentTime;
     public TextMeshProUGUI currentTimeText;
     bool check = false;
 
     private GameController gameController;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +31,7 @@ public class WinScene : MonoBehaviour
         {
             if (bottle.numberOfColorsInBottle == bottle.numberOfTopColorLayers)
             {
-                check = true;           
+                check = true;
             }
             else
             {
@@ -42,6 +42,7 @@ public class WinScene : MonoBehaviour
         if (check == true)
         {
             winScene.SetActive(true);
+            backButton.SetActive(false);
         }
     }
 }
